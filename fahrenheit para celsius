@@ -1,0 +1,5 @@
+fahrenheit = parseInt(prompt ("Quantos graus fahrenheit?"))
+
+celsius = 5/9 * (fahrenheit-32)
+
+console.log(celsius)
