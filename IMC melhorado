@@ -1,0 +1,11 @@
+peso = prompt("Qual seu peso?").replace(',','.')
+altura = prompt("Qual sua altura?").replace(',','.')
+
+imc = (peso/altura**2)
+
+formatado = imc.toFixed(2).replace('.',',')
+// toFixed fixa um número especifico de casas decimais, o número entre parênteses indica quantas casas decimais eu quero; replace troca a vírgula por ponto.
+
+console.log(typeof(formatado)) // string
+
+console.log("Seu índice de massa corporal é: " + formatado)
