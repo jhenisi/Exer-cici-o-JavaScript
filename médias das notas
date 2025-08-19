@@ -1,9 +1,0 @@
-n1 = parseInt (prompt ("Qual a nota 1?"))
-n2 = parseInt (prompt ("Qual a nota 2?"))
-n3 = parseInt (prompt ("Qual a nota 3?"))
-n4 = parseInt (prompt ("Qual a nota 4?"))
-n5 = parseInt (prompt ("Qual a nota 5?"))
-
-media = (n1 + n2 + n3 + n4 + n5/5)
-
-console.log("A média das notas " + n1 + "," + n2 + "," + n3 + "," + n4 + "," + n5 + ". É " + media)
