@@ -1,0 +1,6 @@
+peso = parseFloat(prompt("Qual seu peso?"))
+altura = parseFloat(prompt("Qual sua altura?"))
+
+imc = (peso/altura**2)
+
+console.log("Seu índice de massa corporal é: " + imc)
