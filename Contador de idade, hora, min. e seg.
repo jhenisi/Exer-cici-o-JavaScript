@@ -1,0 +1,8 @@
+idade = prompt("Quantos anos você tem?")
+
+dias = (idade * 365)
+horas = (dias * 24)
+minutos = (horas * 60)
+segundos = (minutos * 60)
+
+console.log ("Você tem " + idade + " anos; " + dias + " dias; " + horas + "horas; " + minutos + " minutos; " + segundos + " segundos")
