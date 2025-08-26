@@ -1,0 +1,7 @@
+numero = prompt("Digite um número para saber se é par ou ímpar")
+
+if (numero % 2 === 0) {
+  console.log(numero+" É par!")
+} else {
+  console.log(numero+" É ímpar!")
+}
