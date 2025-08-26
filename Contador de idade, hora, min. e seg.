@@ -1,3 +1,9 @@
+idade = 0
+dias = 0
+horas = 0
+minutos = 0 
+segundos = 0
+
 idade = prompt("Quantos anos você tem?")
 
 dias = (idade * 365)
