@@ -1,0 +1,11 @@
+classificacao = Number(prompt("Qual a classificação do filme?"))
+
+if (classificacao <12) {
+  console.log("A faixa etária é menor que 12 anos")
+} else if (classificacao >= 12 && classificacao <= 14) {
+  console.log("A faixa etária é de 12 a 14 anos")
+} else if (classificacao >= 15 && classificacao <= 17) {
+  console.log("A faixa etária é de 15 a 17 anos")
+} else {
+  console.log("A faixa etária é 18 anos ou mais")
+}
