@@ -1,0 +1,19 @@
+peso = parseFloat(prompt("Qual seu peso?").replace(',','.'))
+altura = parseFloat(prompt("Qual sua altura?").replace(',','.'))
+
+imc = (peso/altura**2)
+
+formatado = imc.toFixed(2).replace('.',',')
+// toFixed fixa um número especifico de casas decimais, o número entre parênteses indica quantas casas decimais eu quero; replace troca a vírgula por ponto.
+
+console.log(typeof(formatado)) // string
+
+if (imc < 18.5 ) {
+  console.log("Seu índice de massa corporal é: " + formatado + ". Você está abaixo do peso!")
+} else if ( imc >= 18.5 && imc <= 24.9) {
+  console.log("Seu índice de massa corporal é: " + formatado + ". Você está com o peso normal!")
+} else if ( imc >= 25 && imc <= 29.9) {
+  console.log("Seu índice de massa corporal é: " + formatado + ". Você está com sobrepeso!")
+} else if ( imc >= 30) {
+  console.log("Seu índice de massa corporal é: " + formatado + ". Você está acima do peso!")
+}
