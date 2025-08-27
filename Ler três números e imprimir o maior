@@ -1,0 +1,11 @@
+numero1 = Number(prompt("Digite o primeiro número"))
+numero2 = Number(prompt("Digite o segundo número"))
+numero3 = Number(prompt("Digite o terceiro número"))
+
+if (numero1 > numero2 && numero1 > numero3) {
+  console.log ("O primeiro número é maior!")
+} else if (numero2 > numero1 && numero2 > numero3) {
+  console.log ("O segundo número é maior!")
+} else {
+  console.log ("O terceiro número é maior!")
+}
