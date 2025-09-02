@@ -7,5 +7,5 @@ while (contador <=25) {
   } else {
     console.log(contador)
   }
- contador++
+  contador++
 }
