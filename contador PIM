@@ -1,0 +1,11 @@
+contador = 1
+
+while (contador <=25) {
+
+  if (contador % 3 === 0) {
+    console.log("PIM")
+  } else {
+    console.log(contador)
+  }
+ contador++
+}
