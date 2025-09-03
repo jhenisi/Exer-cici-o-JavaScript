@@ -1,0 +1,5 @@
+numero = Number(prompt("Qual número?"))
+
+for (contador = 1; contador <=10; contador++) {
+  console.log(numero + " X " + contador + " = " + (numero*contador))
+}
