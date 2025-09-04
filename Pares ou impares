@@ -1,0 +1,16 @@
+numero = prompt("Informe número")
+
+par = 0
+impar = 0
+
+while (numero != 0){
+  if (numero % 2===0){
+    par++
+  } else {
+    impar++
+  }
+numero = prompt("Informe número")
+}
+
+console.log("São pares " + par )
+console.log("São impares " + impar) 
