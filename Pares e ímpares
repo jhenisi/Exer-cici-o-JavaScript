@@ -1,0 +1,15 @@
+numero = prompt("infome o(s) número(s)")
+
+par = 0
+impar = 0
+
+while (numero != 0){
+  if (numero % 2 === 0){
+    par++
+  } else {
+    impar++
+  }
+numero = prompt("infome o(s) número(s)")
+}
+console.log(impar + " São ímpares")
+console.log(par + " São pares")
