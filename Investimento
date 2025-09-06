@@ -1,0 +1,16 @@
+entrada = prompt("Qual o valor inicial do investimento?")
+
+meses = prompt("Qual o número de meses?")
+
+taxa = prompt("Qual a taxa?")
+
+valorCapitalizado = Number(entrada)
+
+for (contador = 1; contador <= meses; contador++) {
+  valorCapitalizado += valorCapitalizado * taxa
+}
+
+console.log("O capital de entrada é: " + entrada)
+console.log("Os meses são: " + meses)
+console.log("A taxa é: " + taxa)
+console.log("Valor Capitalizado é : " + valorCapitalizado)
