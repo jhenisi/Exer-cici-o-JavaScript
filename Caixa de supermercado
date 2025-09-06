@@ -1,0 +1,13 @@
+produto = prompt("Qual o pruduto?")
+preco = Number(prompt("Digite o preço"))
+
+soma = 0
+
+while (produto != 0) {
+  console.log("Produto: " + produto + " | Valor: " + preco)
+  soma += preco
+    produto = prompt("Qual o pruduto?")
+    preco = Number(prompt("Digite o preço?"))
+} 
+
+console.log("Total de compra: " + soma)
