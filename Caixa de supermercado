@@ -1,13 +1,13 @@
-produto = prompt("Qual o pruduto?")
-preco = Number(prompt("Digite o preço"))
+produto = prompt("PRODUTO")
+preco = Number(prompt("PREÇO").replace(',','.'))
 
 soma = 0
 
 while (produto != 0) {
-  console.log("Produto: " + produto + " | Valor: " + preco)
+  console.log("PRODUTO: " + produto + " | VALOR: " + preco.toFixed(2))
   soma += preco
-    produto = prompt("Qual o pruduto?")
-    preco = Number(prompt("Digite o preço?"))
+    produto = prompt("PRODUTO")
+    preco = Number(prompt("PREÇO").replace(',','.'))
 } 
 
-console.log("Total de compra: " + soma)
+console.log("TOTAL DE COMPRAS: " + soma.toFixed(2))
