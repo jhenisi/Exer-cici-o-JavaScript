@@ -10,5 +10,4 @@ for (indice = 0; indice < armazenaNumeros.length; indice++) {
   soma += notaDigitada
   media = soma/armazenaNumeros.length
 }
-console.log(typeof(media))
-console.log("A média das notas: " + armazenaNumeros[0] + ", " + armazenaNumeros[1] + ", " + armazenaNumeros[2] + ", " + armazenaNumeros[3] + ", " + armazenaNumeros[4] + ". É: " + media.toFixed(2))
+console.log("A média das notas é: " + media.toFixed(2))
