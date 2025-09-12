@@ -1,4 +1,4 @@
-receberNumeros = parseInt(prompt("Quantidade de números?"))
+receberNumeros = parseInt(prompt("Quantidade de notas?"))
 armazenaNumeros = new Array (receberNumeros)
 
 soma = 0
@@ -6,6 +6,7 @@ media = 0
 
 for (indice = 0; indice < armazenaNumeros.length; indice++) {
   notaDigitada = parseInt(prompt("Qual a nota?"))
+  console.log("A nota é: " + notaDigitada)
   armazenaNumeros[indice] = notaDigitada
   soma += notaDigitada
   media = soma/armazenaNumeros.length
