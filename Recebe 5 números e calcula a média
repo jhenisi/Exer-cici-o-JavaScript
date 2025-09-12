@@ -1,0 +1,14 @@
+receberNumeros = parseInt(prompt("Quantidade de números?"))
+armazenaNumeros = new Array (receberNumeros)
+
+soma = 0
+media = 0
+
+for (indice = 0; indice < armazenaNumeros.length; indice++) {
+  notaDigitada = parseInt(prompt("Qual a nota?"))
+  armazenaNumeros[indice] = notaDigitada
+  soma += notaDigitada
+  media = soma/armazenaNumeros.length
+}
+console.log(typeof(media))
+console.log("A média das notas: " + armazenaNumeros[0] + ", " + armazenaNumeros[1] + ", " + armazenaNumeros[2] + ", " + armazenaNumeros[3] + ", " + armazenaNumeros[4] + ". É: " + media.toFixed(2))
