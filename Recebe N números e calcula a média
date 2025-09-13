@@ -9,6 +9,6 @@ for (indice = 0; indice < armazenaNumeros.length; indice++) {
   console.log("A nota é: " + notaDigitada)
   armazenaNumeros[indice] = notaDigitada
   soma += notaDigitada
-  media = soma/armazenaNumeros.length
 }
+media = soma/armazenaNumeros.length
 console.log("A média das notas é: " + media.toFixed(2))
