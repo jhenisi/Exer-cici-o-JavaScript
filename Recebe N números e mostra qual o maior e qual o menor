@@ -4,6 +4,7 @@ armazenandoQuantidade = new Array(numerosQuantidade)
  
 for (indice = 0; indice < armazenandoQuantidade.length; indice++) {
   numero = parseInt(prompt("Qual o número?"))
+  console.log("Número digitado: " + numero)
   armazenandoQuantidade[indice] = numero
 } 
 maior = armazenandoQuantidade[0]
