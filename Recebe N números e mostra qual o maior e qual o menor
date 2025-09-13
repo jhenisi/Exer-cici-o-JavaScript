@@ -1,0 +1,21 @@
+numerosQuantidade = parseInt(prompt("Qual a quantidade de numeros?"))
+
+armazenandoQuantidade = new Array(numerosQuantidade)
+ 
+for (indice = 0; indice < armazenandoQuantidade.length; indice++) {
+  numero = parseInt(prompt("Qual o número?"))
+  armazenandoQuantidade[indice] = numero
+} 
+maior = armazenandoQuantidade[0]
+menor = armazenandoQuantidade[0]
+
+for (contador = 0; contador < armazenandoQuantidade.length; contador++) {
+  if (armazenandoQuantidade[contador] > maior) {
+    maior = armazenandoQuantidade[contador]
+  }
+  if (armazenandoQuantidade[contador] < menor) {
+    menor = armazenandoQuantidade[contador]
+  }
+}
+console.log (maior + " É O MAIOR!")
+console.log(menor + " É O MENOR!")
