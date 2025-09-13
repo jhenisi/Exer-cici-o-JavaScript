@@ -1,0 +1,23 @@
+numeros = parseInt(prompt("Qual a quantidade de numeros?"))
+
+armazenaNumeros = new Array(numeros)
+
+soma = 0
+media = 0
+
+for (indice = 0; indice < armazenaNumeros.length; indice++) {
+  numerosDigitados = parseInt(prompt("Quais os números?"))
+  console.log("Os números são: " + numerosDigitados)
+  armazenaNumeros[indice] = numerosDigitados
+  soma += numerosDigitados
+  media = soma/armazenaNumeros.length
+}
+
+maior = armazenaNumeros[0]
+for (contador = 0; contador < armazenaNumeros.length; contador++) {
+  if (armazenaNumeros[contador] >= media) {
+    maior = armazenaNumeros[contador]
+    console.log(maior + " É maior ou igual a média")
+  }
+}
+console.log("A média das notas é: " + media.toFixed(2))
