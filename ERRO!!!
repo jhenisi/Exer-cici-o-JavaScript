@@ -1,0 +1,37 @@
+quantidade = parseInt(prompt("Quantas unidades?"))
+descricao = prompt("Qual o nome do produto?")
+valor = Number(prompt("Qual o preço?").replace(",","."))
+
+armazenar = new Array;
+
+soma = 0
+multiplicacao = quantidade*valor
+
+while (quantidade != 0) {
+  item = Array()
+  soma += multiplicacao
+  quantidade = parseInt(prompt("Quantas unidades?"))
+  descricao = prompt("Qual o nome do produto?")
+  valor = Number(prompt("Qual o preço?").replace(",","."))
+  item[0] = quantidade
+  item[1] = descricao
+  item[2] = valor
+  armazenar.push(item)
+}
+
+console.log("     CUPOM DE VENDA      ")
+console.log("-------------------------")
+console.log("     ITEM DESCRIÇAO      ")
+console.log("QTD      VALOR      TOTAL")
+console.log("-------------------------")
+
+// percorer o arm 
+total = quantidade*valor
+for (contador = 0; contador < armazenar.length; contador++){
+item = armazenar(contador)
+console.log(item + "     "+ descricao)
+console.log(quantidade + "      "+ valor+"    "+total)
+
+}
+console.log("-------------------------")
+console.log("TOTAL R$            "+soma.toFixed(2))
