@@ -30,8 +30,8 @@ console.log("-------------------------")
 for (contador = 0; contador < armazenar.length; contador++){
 item = armazenar[contador]
 total = item[0]*item[2]
-console.log((contador+1) + "     "+ item[1])
-console.log(item[0] + "      "+ item[2]+"    "+ total.toFixed(2))
+console.log((contador+1) + "           "+ item[1])
+console.log(item[0] + " UNI        "+ item[2]+"       "+ total.toFixed(2))
 }
 
 console.log("-------------------------")
