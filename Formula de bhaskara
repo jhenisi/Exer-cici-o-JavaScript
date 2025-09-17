@@ -2,19 +2,19 @@ function funcaoDelta (){
   const a = parseInt(prompt("Qual valor de a?"))
   const b = parseInt(prompt("Qual valor de b?"))
   const c = parseInt(prompt("Qual valor de c?"))
-  
+
   const delta = b**2 - 4*a*c
 
-console.log("a: " + a + " b: " + b + " c: " + c)
-console.log("Delta: " + delta)
+  console.log("a: " + a + " b: " + b + " c: " + c)
+  console.log("Delta: " + delta)
 
-raizDelta = Math.sqrt(delta)// A parte da raiz quadrada eu tive que pedir ajuda da IA não vou mentir
+  raizDelta = Math.sqrt(delta)
 
-x1 = (-b+raizDelta) / (2*a)
-x2 = (-b-raizDelta) / (2*a)
+  x1 = (-b+raizDelta) / (2*a)
+  x2 = (-b-raizDelta) / (2*a)
 
-console.log("Raiz n1: "+x1)
-console.log("Raiz n2: "+x2)
+console.log("Raiz n1: "+x1.toFixed(2))
+console.log("Raiz n2: "+x2.toFixed(2))
 }
 
 funcaoDelta();
