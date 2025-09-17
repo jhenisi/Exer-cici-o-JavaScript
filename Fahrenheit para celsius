@@ -1,9 +1,9 @@
 function funcaoFahrenheit() {
   const fahrenheit = parseInt(prompt ("Quantos graus fahrenheit?").replace(',','.'))
   
-celsius = 5/9 * (fahrenheit-32)
+  celsius = 5/9 * (fahrenheit-32)
 
-console.log(celsius.toFixed(2))
+console.log(fahrenheit + "° Fahrenheit são " + celsius.toFixed(2) +"° Celsius")
 }
 
 funcaoFahrenheit();
