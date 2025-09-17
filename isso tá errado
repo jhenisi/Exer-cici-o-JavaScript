@@ -1,0 +1,19 @@
+function funcaoDelta (){
+  const a = 1
+  const b = 5
+  const c = 6
+  
+const delta = b**2 - 4*a*c
+
+console.log("Delta: " + delta)
+
+raizDelta = // meu Deus não lembro como calcula raiz quadrada
+
+x1 = -b+raizDelta / 2*a
+x2 = -b-raizDelta / 2*a
+
+console.log("Raiz n1: "+x1)
+console.log("Raiz n2: "+x2)
+}
+
+funcaoDelta();
